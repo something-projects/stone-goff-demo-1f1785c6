@@ -1,0 +1,36 @@
+{
+  "name": "outlook-netsuite-integration",
+  "version": "1.0.0",
+  "description": "Bi-directional integration between Microsoft Outlook and NetSuite CRM",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "jest --verbose",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "build": "tsc",
+    "lint": "eslint src --ext .ts,.tsx"
+  },
+  "keywords": [
+    "outlook",
+    "netsuite",
+    "integration",
+    "crm",
+    "email-sync"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^29.5.0",
+    "@types/node": "^20.0.0",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "eslint": "^8.0.0",
+    "jest": "^29.5.0",
+    "ts-jest": "^29.1.0",
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@microsoft/microsoft-graph-client": "^3.0.0",
+    "axios": "^1.4.0"
+  }
+}
